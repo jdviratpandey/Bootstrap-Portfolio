@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+width: 100vw;
+}
+nav{
+padding: 0;
+background-color: rgb(8, 8, 8);
+display: flex;
+height: 3rem;
+width: 100vw;
+}
+.logo img{
+ width: 6rem;
+ height: 6rem;
+ margin-left: 10rem;
+ border: 2px solid red;
+ border-radius: 50%;
+
+}  
+.logo{
+  z-index: 1;
+}
+.link ul{
+  display: flex;
+  margin-right: 50px;
+  
+}
+.link{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  margin-left: 25rem;
+  margin-top: 10px;
+}
+.link ul li {
+  list-style: none;
+  
+}
+.link ul li a {
+ margin: 15px;
+ text-decoration: none;
+ color: antiquewhite;
+ padding: 8px;
+ border-radius: 25px;
+ border: 2px solid rgb(112, 40, 40);
+ 
+}
+.link ul li a:hover{
+  background-color: rgb(85, 163, 163);
+  border-radius: 25px;
+ transition: 1s;
+}
+.slide .carousel-inner .carousel-item img{
+  width: 100vw;
+  height: 60vh;
+}
+.ham{
+  visibility: hidden;
+}
+.heding{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: viru 2s  infinite linear;
+}
+h1{
+    animation: viru 2s  infinite linear;
+}
+@keyframes viru{
+    0%{
+
+transform: scaleY(1.2);
+    }
+}
+.temp{
+    display: flex;
+}
+span{
+    color: red;
+    font-weight: 400;
+}
+.card{
+    margin-left: 2.5rem;
+    text-align: center;
+}
+.card:hover{
+    transform: scaleY(1.1);
+}
+
+.progress1{
+    width: 50%;
+    height: 60vh;
+
+}
+.other{
+    width: 50vw;
+    height: 60vh;
+}
+.po{
+    display: flex;
+}
+.progress{
+    margin-bottom: 1rem!important;
+    height: 0.5rem!important;
+}
+h2{
+    font-size: 1rem!important;
+}
+.fab, .fas{
+    color: rgb(12, 211, 12);
+   font-size: 2rem!important;
+}
+
+.watsapp{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+h3{
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.ly34{
+    text-align: center;
+    width: 100%;
+}
+.footer1{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(104, 98, 98);
+    display: flex;
+}
+h6{
+    margin-top: 1rem;
+    margin-left: 18rem;
+}
+.copyri{
+    margin-top: 2rem;
+}
+.p4{
+    visibility: hidden;
+}
+.about{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    z-index: 3;
+}
+@media screen and (max-width: 760px){
+  
+   header{
+       width: 100vw;
+       height: auto;
+       overflow: hidden;
+   }
+   .temp{
+       display: flex;
+       flex-direction: column;
+       
+   }
+   .card{
+       margin-top: 1rem;
+       border: 3px solid black;
+   }
+   .po{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.progress1{
+    width: 100%;
+    height: 60vh;
+
+}
+.other{
+    width: 90%;
+    height: 60vh;
+}
+   .logo img{
+       
+ width: 6rem;
+ height: 6rem;
+ margin-left: 1rem;
+ border: 2px solid red;
+ border-radius: 2%;
+
+} 
+.ham{
+visibility: visible;
+  color: black;
+  margin-left: 12rem;
+  width: 3rem;
+  height: 2rem;
+ margin-top: 5px;
+}
+
+.link{
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+  margin-right: 3rem;
+  
+}
+.link ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 7rem;
+    z-index: 1;
+    margin-right: 2rem;
+}
+.link ul li{
+margin-top: 4rem;
+
+}
+.link ul li a{
+color: rgb(0, 0, 0);
+}
+.footer1{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(104, 98, 98);
+    display: flex;
+    flex-direction: column;
+    
+}
+h6{
+    margin: 0;
+    font-size: 1px!important;
+}
+h8{
+    margin-left: 7rem;
+}
+.prit{
+    margin-left: 1rem;
+}
+
+.p4{
+    visibility: visible;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    margin-left: 1rem;
+    margin-top: 12px;
+}
+.about{
+   
+    width: 18rem;
+    height: 3rem;
+    position: absolute;
+    right: 4rem;
+    top: 15rem;
+}
+.about h3{
+    color: blueviolet;
+    font-size: 1rem;
+}
+}
